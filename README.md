@@ -88,7 +88,7 @@ To run the Streamlit app locally, follow these steps:
 Here are a few examples of the stripe patterns that can be applied:
 
 - **Vertical Stripe Pattern**  
-  ![Vertical Stripe Pattern](Barcode%20Pattern.jpg)
+  ![Vertical Stripe Pattern](https://github.com/shukdevtroy/Stripe-Pattern-Applier/blob/main/images/Barcode%20Pattern.jpg)
 
 - **Diagonal Stripe Pattern**  
   ![Diagonal Stripe Pattern](Diagonal%20Stripes.jpg)
