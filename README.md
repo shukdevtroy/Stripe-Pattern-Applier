@@ -42,6 +42,7 @@ To run the app locally, make sure you have the following installed:
 - Python 3.7+
 - Streamlit
 - Pillow (PIL)
+- numpy==1.26.3
 
 ### Installing Dependencies
 
@@ -65,8 +66,8 @@ To run the Streamlit app locally, follow these steps:
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/yourusername/stripe-pattern-applier.git
-    cd stripe-pattern-applier
+    git clone https://github.com/shukdevtroy/Stripe-Pattern-Applier.git
+    cd Stripe-Pattern-Applier
     ```
 
 2. Install the required dependencies:
@@ -91,18 +92,20 @@ Here are a few examples of the stripe patterns that can be applied:
   ![Vertical Stripe Pattern](https://github.com/shukdevtroy/Stripe-Pattern-Applier/blob/main/images/Barcode%20Pattern.jpg)
 
 - **Diagonal Stripe Pattern**  
-  ![Diagonal Stripe Pattern](Diagonal%20Stripes.jpg)
+  ![Diagonal Stripe Pattern](https://github.com/shukdevtroy/Stripe-Pattern-Applier/blob/main/images/Diagonal%20Stripes.jpg)
 
 - **Horizontal Stripe Pattern**  
-  ![Horizontal Stripe Pattern](horizontal%20stripe%20pattern.jpg)
+  ![Horizontal Stripe Pattern](https://github.com/shukdevtroy/Stripe-Pattern-Applier/blob/main/images/horizontal%20stripe%20pattern.jpg)
 
 - **Vertical Concentrated Stripe Pattern**  
-  ![Vertical Concentrated Stripe Pattern](Vertical%20Concentrated.jpg)
+  ![Vertical Concentrated Stripe Pattern](https://github.com/shukdevtroy/Stripe-Pattern-Applier/blob/main/images/Vertical%20Concentrated.jpg)
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
+## Demo App
 
-Feel free to modify the `README.md` file based on your actual repository structure and additional information you'd like to provide. This file will help users understand the purpose of the app, how to use it, and how to get it up and running locally.
+[Click to view the demo app](https://shukdevdatta123-stripe-pattern-applier.hf.space)
+
+
