@@ -75,7 +75,7 @@ st.sidebar.write("""
 """)
 
 # Modal Popup for Instructions (Expander with images)
-with st.expander("Learn about Face Filtering", expanded=False):
+with st.expander("Learn about Stripe Pattern", expanded=False):
     st.write(
         "Stripe patterns are a versatile and dynamic design element that can significantly alter the aesthetic of an image. Whether applied as vertical, horizontal, diagonal, or concentrated vertical stripes, they introduce texture, movement, and depth to compositions. Vertical stripes often convey height and elegance, while horizontal stripes create a sense of calm and stability. Diagonal stripes add energy and dynamism, and concentrated vertical stripes offer a more dramatic, focused look. When applied to images, stripe patterns can either subtly enhance the background or become the focal point, depending on their size, contrast, and direction. They can also introduce a sense of rhythm, guide the viewer's eye, and accentuate specific elements, making them a powerful tool for adding visual interest, texture, and creativity to photographs and digital art."
     )
