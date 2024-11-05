@@ -1,4 +1,3 @@
-#
 import os
 import zipfile
 import streamlit as st
@@ -61,6 +60,19 @@ def create_zip_file(image_buffers, zip_filename):
 # Streamlit UI
 st.title("Stripe Pattern Applier")
 st.write("Upload one or multiple images and apply a stripe pattern.")
+
+# Sidebar with instructions
+st.sidebar.title("Instructions")
+st.sidebar.write("""
+1. **Upload an Image**: Choose either a single image or multiple images by using the file uploader.
+2. **Choose a Pattern**: You can either apply a **single pattern** or apply **all available patterns** to your uploaded images. 
+3. **Download**: Once the images are processed, you can download the individual processed image(s) or download all processed images in a ZIP file.
+4. **Pattern Options**: The available patterns include:
+   - **Vertical Stripes**
+   - **Diagonal Stripes**
+   - **Horizontal Stripes**
+   - **Vertical Concentrated Stripes**
+""")
 
 # Radio button for single or multiple image upload
 upload_option = st.radio("Choose Upload Option", ["Upload Single Image", "Upload Multiple Images"])
