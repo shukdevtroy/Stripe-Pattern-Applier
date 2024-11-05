@@ -74,6 +74,19 @@ st.sidebar.write("""
    - **Vertical Concentrated Stripes**
 """)
 
+# Modal Popup for Instructions (Expander with images)
+with st.expander("Learn about Face Filtering", expanded=False):
+    st.write(
+        "Face filtering is a creative technique that enhances images by applying various effects to highlight different features of the subject. The filters available in this app include Detail, which sharpens textures and makes features stand out; Edge Enhance and Edge Enhance More, which accentuate edges for a defined look; Smooth and Smooth More, which soften the image and reduce imperfections for a polished appearance; and Sharpen, which increases contrast and clarity to reveal finer details. Together, these filters allow users to transform their photos, emphasizing beauty and enabling unique artistic interpretations, making face filtering an engaging way to manipulate images and express creativity."
+    )
+    
+    # Example images for face filtering (You can replace these with any actual images you want to display)
+    # For example, if you have sample images, you can display them here:
+    st.image("Barcode Pattern.jpg.jpg", caption="Verticle Stripe Pattern", use_column_width=True)
+    st.image("Diagonal Stripes.jpg", caption="Diagonal Stripe Pattern", use_column_width=True)
+    st.image("horizontal stripe pattern.jpg", caption="Horizontal Stripe Pattern", use_column_width=True)
+    st.image("Vertical Concentrated.jpg", caption="Vertical Concentrated Stripe Pattern", use_column_width=True)
+
 # Radio button for single or multiple image upload
 upload_option = st.radio("Choose Upload Option", ["Upload Single Image", "Upload Multiple Images"])
 
