@@ -82,7 +82,7 @@ with st.expander("Learn about Face Filtering", expanded=False):
     
     # Example images for face filtering (You can replace these with any actual images you want to display)
     # For example, if you have sample images, you can display them here:
-    st.image("Barcode Pattern.jpg.jpg", caption="Verticle Stripe Pattern", use_column_width=True)
+    st.image("Barcode Pattern.jpg", caption="Verticle Stripe Pattern", use_column_width=True)
     st.image("Diagonal Stripes.jpg", caption="Diagonal Stripe Pattern", use_column_width=True)
     st.image("horizontal stripe pattern.jpg", caption="Horizontal Stripe Pattern", use_column_width=True)
     st.image("Vertical Concentrated.jpg", caption="Vertical Concentrated Stripe Pattern", use_column_width=True)
