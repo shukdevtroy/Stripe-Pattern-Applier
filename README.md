@@ -43,6 +43,7 @@ To run the app locally, make sure you have the following installed:
 - Streamlit
 - Pillow (PIL)
 - numpy==1.26.3
+- zipfile36
 
 ### Installing Dependencies
 
@@ -57,6 +58,8 @@ Here’s the `requirements.txt`:
 ```txt
 streamlit
 Pillow
+numpy==1.26.3
+zipfile36
 ```
 
 ## Running the App
